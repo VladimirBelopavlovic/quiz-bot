@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+media
+.python
+.venv/
+venv/
+key.txt
