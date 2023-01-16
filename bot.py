@@ -3,6 +3,7 @@ import json
 
 import discord
 import requests
+from private.config import token
 
 client = discord.Client()
 
@@ -49,4 +50,4 @@ async def on_message(message):
         else:
             await message.channel.send('Pogresan odgovor.')
 
-client.run('MTA2MDk4NjI5NDEzOTg3OTQ1NA.GIcv0C.lobx2uvduHiluj8cwEIB3WdsIPs9rSTR4seUP8')
+client.run(token)
